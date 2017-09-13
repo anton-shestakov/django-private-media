@@ -12,7 +12,7 @@ setup(
     packages = find_packages(),
     include_package_data = True,
     license = 'BSD License',
-    description = """Private media for Django. Check the user's authorization before serving files at PRIVATE_MEDIA_URL, uploaded to PRIVATE_MEDIA_ROOT. Requires Django 1.5.""",
+    description = """Private media for Django. Check the user's authorization before serving files at PRIVATE_MEDIA_URL, uploaded to PRIVATE_MEDIA_ROOT. Requires Django 1.8.""",
     long_description = README,
     keywords = "private media xsendfile",
     url = 'https://github.com/RacingTadpole/django-private-media',
